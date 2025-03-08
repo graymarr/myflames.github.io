@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flames</title>
+        <link rel="stylesheet" type="text/css" href="zodiac.css">
+
+        <link rel="icon" type="image/x-icon" href="assets/img/sparkly_heart.gif">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+
+    
+    <body>
+       
+        <div class="flames-content">
+      
+            <div class="flames-title"> 
+            <p style="font-family: Roboto Mono; color: rgb(72, 65, 65);">flames ~</p>             
+            </div>
+            
+            <div class="flames-heading">
+
+            </div>
+
+            <div class ="flames-inside">
+  
+                <!--image-->
+                <img src="assets/img/pink_moon_gnight.gif" alt="cute moon and stars gif" class="form-image">
+ 
+   
+                <!--form-->
+                <form action="zodiac.php" method="POST">
+                    <div class="text-design">Your:</div>
+                    <input type="text" placeholder="First Name" name="name1" size="15" class="styled-input">
+                    <input type="text" placeholder="Last Name" name="lname1" size="15" class="styled-input">
+                    <br/>
+                    <input type="date" id="birthday" name="yourBirthdate">
+                    
+                    <br/>
+                    <br/>
+
+                    <div class="text-design">Crush's: </div>
+                    <input type="text" placeholder="First Name" name="name2" size="15" class="styled-input">
+                    <input type="text" placeholder="Last Name" name="lname2" size="15" class="styled-input">
+                    <br/>
+                    <input type="date" id="birthday" name="theirBirthdate">
+
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Enter" class="styled-button">
+                </form>
+            </div>  
+        </div>
+    </body>
+
+</html>

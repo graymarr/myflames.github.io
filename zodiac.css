@@ -1,0 +1,216 @@
+/*///////////////////////////////fonts///////////////////////////////*/
+.roboto-mono-<uniquifier> {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.playwrite-au-vic-guides-regular {
+    font-family: "Playwrite AU VIC Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
+/*///////////////////////////////container///////////////////////////////*/
+body{
+    background-image: url("assets/img/flamesbg2.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+
+
+    cursor: url("assets/pinkheart_normalselect.cur"), auto;
+}
+
+
+
+.flames-content {
+
+    padding: 100px;
+    padding-top: 20px;
+    padding-inline: 10px;
+    padding-bottom: 20px;
+    border: 5px solid rgb(249, 89, 161);
+    margin: 0;
+    outline-style: dotted;
+    outline-color: rgb(239, 97, 161);
+    background-color: #f7e8ea;
+    border-radius: 5px;
+
+
+    text-align:center;
+}
+
+.flames-title { 
+    width: 400px; 
+    height: 40px; 
+    background: linear-gradient(to top, #f7e8ea, #ffb6c1);
+    position: relative;
+
+    border: 2px solid rgb(239, 97, 161);
+    margin: 0;
+    outline-color: rgb(239, 97, 161);
+    border-radius: 8px;
+
+    top: 50%; /* Center vertically */ 
+    left: 50%; /* Center horizontally */ 
+    transform: translate(-50%, -10%); 
+
+
+    z-index: 1; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+    padding-left:10px;
+    
+}
+
+.flames-heading{
+    width: 400px; 
+    height: 40px; 
+    background: #f7e8ea;
+    position: relative;
+
+    border: 2px solid rgb(239, 97, 161);
+    margin: 0;
+    outline-color: rgb(239, 97, 161);
+    border-radius: 2px;
+
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 25%); 
+
+
+    z-index: 1; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+
+.flames-inside{
+    text-align: center;
+    width: 400px; 
+    height: 400px; 
+    background: #f7e8ea;
+    position: relative;
+
+    border: 2px solid rgb(239, 97, 161);
+    margin: 0;
+    outline-color: rgb(239, 97, 161);
+    border-radius: 2px;
+
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 2%); 
+
+
+    z-index: 1; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding-left: 10px;
+
+
+    background-image: url("assets/img/hello_kitty_blue.gif");
+    
+    
+}
+
+
+.text-design{
+    font-family: Playwrite AU VIC Guides; 
+    font-size: 20px; 
+    color: rgb(2, 135, 150); 
+    
+    
+    border-radius: 2px;
+    padding: 5px;
+}
+
+
+
+/*///////////////////////////////form///////////////////////////////*/
+
+.form-image { 
+    position: absolute; 
+    top: -50%; 
+    left: 85%; 
+    transform: translateX(-50%); 
+    max-width: 65%; 
+    height: auto; 
+    z-index: 2; 
+}
+
+
+
+.styled-input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ef61a1;
+    border-radius: 5px;
+    background-color: #f7e8ea;
+    font-family: 'Roboto Mono', serif;
+    font-size: 16px;
+    color: #484141;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    cursor: url("assets/pinkheart_textselect.cur"),auto;
+    
+}
+
+.styled-input:focus {
+    border-color: #ffb6c1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+
+    
+   
+}
+
+.styled-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ef61a1;
+    color: white;
+    font-family: 'Roboto Mono', serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #ffb6c1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: url("assets/pinkheart_linkselect.cur"),auto;
+}
+
+
+/* Style for the date input */
+input[type="date"] {
+    background-color: #ffb6c1; 
+    color: #484141; /* Text color */
+    border: 2px solid #ef61a1; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 3px; /* Padding */
+    font-family: 'Roboto Mono', serif; /* Font family */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+/* Style for the date input when focused */
+input[type="date"]:focus {
+    border-color: #ff69b4; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    outline: none; 
+}
